@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukianime</title>
+    <!--Carga CSS-->
+    <link rel="stylesheet" href="css/estilos_comunes.css">
+    <link rel="stylesheet" href="css/paginas/guardar_videos_fav.css">
+    <link rel="stylesheet" href="css/componentes/menu_oculto.css">
+    <link rel="stylesheet" href="css/componentes/header.css">
+    <link rel="stylesheet" href="css/componentes/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!--Carga librerías y archivos de JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/menu_desplegable.js"></script>
+    <script src="js/guardar_videos_fav.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/menu_carrusel.js"></script>
+
+    <!--Carga componentes-->
+    <script>
+    $(function(){
+        $("#header").load("https://raw.githubusercontent.com/mochi182/Ukianime/master/componentes/header.html"); 
+    });
+    $(function(){
+        $("#footer").load("https://raw.githubusercontent.com/mochi182/Ukianime/master/componentes/footer.html"); 
+    });
+    $(function(){
+        $("#menu_oculto").load("https://raw.githubusercontent.com/mochi182/Ukianime/master/componentes/menu_oculto.html"); 
+    });
+    </script>
+</head>
+
+<body class=".fondo-uki">
+    <header id="header"></header>
+    <div id="menu_oculto"></div>
+    <section class="PantallaGvideosF">
+        <div class="contenedoranimesfavoritos">
+            
+            <p class="titulodecontenido">Animes favoritos</p>
+            <img class= "Estrellafav"src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-icono-estrella-de-dibujos-animados-50-by-vexels.png">
+            <div class="contenedordefiltro">
+              <button class="filtrob">Filtro</button>
+              <div class="desplengandofiltro">
+                    <a href="">Shonen</a>
+                    <a href="">Seinen</a>
+                    <a href="">Drama</a>
+                    <a href="">Slice of Lice</a>
+              </div>
+            </div>
+            <hr style="clear: both;" class="lineaseparadora">
+    <section>
+              <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <div>
+                      <p class="titulosanimes">One Piece</p><img class="productos" src="https://mangaplus.shueisha.co.jp/drm/title/100020/title_thumbnail_portrait_list/10711.jpg?key=a965304ad4d5ab73043adab8d9a4b025&duration=86400" alt="">
+                    </div> 
+                </div>
+                <div class="carousel-cell">
+                    <div>
+                      <p class="titulosanimes">Kimetsu No Yaiba</p><img class="productos"  src="https://mangaplus.shueisha.co.jp/drm/title/100009/title_thumbnail_portrait_list/7984.jpg?key=731a43a670a2cb60bf2bd7f0fa1cf0d5&duration=86400" alt=""></div>
+                    </div>
+                <div class="carousel-cell">
+                  <div>
+                    <p class="titulosanimes">Chainsawman</p><img  class="productos" src="https://mangaplus.shueisha.co.jp/drm/title/100037/title_thumbnail_portrait_list/8068.jpg?key=abed100d579bf94d6ecd996d8e2ef4c9&duration=86400" alt="">
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <div>
+                    <p class="titulosanimes">Death Note</p><img class="productos"  src="https://mangaplus.shueisha.co.jp/drm/title/100008/title_thumbnail_portrait_list/7981.jpg?key=4a0c7a795f1a54cb2a224105bafe24e0&duration=86400" alt="">
+                  </div> 
+                </div>
+                <div class="carousel-cell">
+                  <div>
+                    <p class="titulosanimes">Dragon Ball Super</p><img class="productos"  src="https://mangaplus.shueisha.co.jp/drm/title/100012/title_thumbnail_portrait_list/10699.jpg?key=3ad5bd638a69e3513f357d3bd1fd400f&duration=86400" alt="">
+                  </div> 
+                </div>
+                <div class="carousel-cell">
+                  <div>
+                    <p class="titulosanimes">Carole & Tuesday</p><img class="productos"  src="https://cdn.shopify.com/s/files/1/1615/2845/products/resize_image_65f40dbc-7312-40fc-9c98-828e807522a8_1024x1024.jpg?v=1580278346" alt="">
+                  </div> 
+                </div>
+                <div class="carousel-cell">
+                  <div>
+                    <p class="titulosanimes">Naruto</p><img class="productos"  src="https://mangaplus.shueisha.co.jp/drm/title/100018/title_thumbnail_portrait_list/8011.jpg?key=25f54169f661bdaaf76bfef52c08b16f&duration=86400" alt="">
+                  </div> 
+                </div>
+              </div>
+            
+            
+            </script>
+        </div>
+     </section>
+    </section>
+    <section class="PantallaGvideosF">
+        <div class="contenedorepisodiosfavoritos">
+            
+            <p class="titulodecontenido">Episodios favoritos</p>
+            <img class= "Estrellafav"src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-icono-estrella-de-dibujos-animados-50-by-vexels.png">
+            <div class="contenedordefiltro">
+                    <button class="filtrob">Filtro</button>
+                    <div class="desplengandofiltro">
+                          <a href="">Shonen</a>
+                          <a href="">Seinen</a>
+                          <a href="">Drama</a>
+                          <a href="">Slice of Lice</a>
+                    </div>
+            </div>
+            <hr style="clear: both;" class="lineaseparadora">
+    <section>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+              <div class="carousel-cell">
+                  <div class="contenedortituloep">
+                     <img  class="productos2" src="https://vignette.wikia.nocookie.net/onepiece/images/3/3a/380px-Episode_90.png/revision/latest/scale-to-width-down/350?cb=20110305213849&path-prefix=es" alt=""><p class="titulosanimes">Episodio 90: <br> "One Piece"</p> 
+                  </div>  
+              </div>
+              <div class="carousel-cell">
+                  <div>
+                     <img class="productos2" src="https://m.media-amazon.com/images/M/MV5BNDkyNzFkYWMtNjUyYS00MDZiLWFlNzQtOTM5ZTZiMWY1NmYyXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_.jpg" alt=""><p class="titulosanimes">Episodio 13: <br> "Full Metal Alchemist"</p>
+                  </div>
+              </div>
+              <div class="carousel-cell">
+                  <div>
+                     <img class="productos2"src="https://www.anmosugoi.com/wp-content/uploads/2019/10/anohana.jpg" alt=""><p class="titulosanimes">Episodio 11: <br> "Anohana"</p>
+                  </div> 
+              </div>
+              <div class="carousel-cell">
+                <div>
+                   <img class="productos2" src="https://i.ytimg.com/vi/wLoRiTk-awo/maxresdefault.jpg" alt=""><p class="titulosanimes">Episodio 1: <br> "Jojo Bizarre Adventure"</p>
+                </div>
+              </div>
+              <div class="carousel-cell">
+                <div>
+                  <img class="productos2" src="https://vignette.wikia.nocookie.net/shingeki-no-kyojin/images/2/2b/El_Tit%C3%A1n_Colosal_cae_sobre_Eren.png/revision/latest?cb=20170519181812&path-prefix=es" alt=""><p class="titulosanimes">Episdio 33: <br> "Shingeki no Kyojin"</p>
+                </div>
+              </div>
+              <div class="carousel-cell">
+                <div>
+                  <img class="productos2" src="https://i.pinimg.com/originals/97/ae/3e/97ae3e03df9dce32ff1015ae93e8b42f.jpg" alt=""><p class="titulosanimes">Episdio 130: <br> "Dragon Ball Super"</p>
+                </div>
+              </div>
+              <div class="carousel-cell">
+                <div>
+                  <img class="productos2" src="https://pmcdeadline2.files.wordpress.com/2017/06/bebop.jpg?w=960"><p class="titulosanimes">Episdio 10: <br> "Cowboy Bebop"</p>
+                </div>
+              </div>
+            </div>
+      </section>        
+   </section>
+    <footer id="footer"></footer>
+</body>
+</html>
